@@ -1,0 +1,127 @@
+*{box-sizing: border-box;}
+:root{
+  --primaryColor: #b56807;
+  --primaryLight: #ec963e;
+  --primaryDark: #803d00;
+  --secondaryColor: #396e77;
+  --secondaryLight: #689ce6;
+  --secondaryDark: #02434b;
+}
+.template{
+  background-color: var(--primaryColor);
+  color: var(--secondaryDark);
+}
+.Experience{
+  background-color: black;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 30px 0px;
+  text-shadow: 2px -3px 3px grey;
+  box-shadow: 5px -5px 6px grey;
+  font-family: algerian;
+}
+.Experience{
+  font-size: 50px;
+  color: white;
+}
+.title{
+  background-color: darkblue;
+  color: lightgray;
+  vertical-align: middle;
+  padding: 12px;
+  font-size: 24px;
+  font-style: oblique;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+.container{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  position:relative;
+}
+.background{
+  width: 90%;
+}
+@keyframes slideQuestion{
+  0%{transform: translateX(0%); opacity: 0.9;}
+  100%{transform: translateX(150%); opacity: 0.3;}
+}
+.question{
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  animation-name: slideQuestion;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+.question2{
+  position: absolute;
+  width: 15%;
+  top: 30%;
+  left: 20%;
+  animation: slideQuestion 10s infinite;
+}
+.question3{
+position: absolute;
+width: 20%;
+top: 60%;
+left: 40%;
+animation: slideQuestion 14s infinite;
+}
+.title2{
+  background-color: lightblue;
+  color: lightgray;
+  vertical-align: middle;
+  padding: 12px;
+  font-size: 24px;
+  font-style: oblique;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+}
+.title3{
+  background-color: darkblue;
+  color: lightgray;
+  vertical-align: middle;
+  padding: 12px;
+  font-size: 24px;
+  font-style: oblique;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+.container2{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  position:relative;
+}
+.background2{
+  width: 90%;
+}
+
+@keyframes slideHeart{
+  0%{transform: translateX(0%); opacity: 0.9;}
+  100%{transform: translateX(150%); opacity: 0.3;}
+}
+.heart{
+  osition: absolute;
+  top: 0%;
+  left: 80%;
+  animation-name: slideHeart;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+
+.footer{
+  text-align: center;
+}
